@@ -88,4 +88,4 @@ h4 { font-size: var(--font-size-h4); }
 h5 { font-size: var(--font-size-h5); }
 
 /* ### wrapper ### */
-#wrapper { max-width: var(--width-base); width: var(--width); margin: 0 auto; }
+.container { max-width: var(--width-base); width: var(--width); margin: 0 auto; }
