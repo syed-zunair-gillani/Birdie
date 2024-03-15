@@ -14,7 +14,7 @@ jQuery( document ).ready( function ( $ ) {
 	  centerMode: true,
 	  centerPadding: '0%',
 	  slidesToShow: 2,
-	  autoplay: false,
+	  autoplay: true,
 	  autoplaySpeed: 2000,
 	  dots: false,
 	  arrows:false,
