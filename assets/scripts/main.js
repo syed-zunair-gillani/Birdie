@@ -12,19 +12,20 @@ jQuery( document ).ready( function ( $ ) {
 	// Slider
 	$('.sliderholder').slick({
 	  centerMode: true,
-	  centerPadding: '15%',
-	  slidesToShow: 3,
-	  autoplay: true,
+	  centerPadding: '0%',
+	  slidesToShow: 2,
+	  autoplay: false,
 	  autoplaySpeed: 2000,
-	  dots: true,
+	  dots: false,
+	  arrows:false,
 	  responsive: [
 		{
 		  breakpoint: 768,
 		  settings: {
 			arrows: false,
 			centerMode: true,
-			centerPadding: '15%',
-			slidesToShow: 3
+			centerPadding: '0%',
+			slidesToShow: 2
 		  }
 		},
 		{
@@ -32,7 +33,7 @@ jQuery( document ).ready( function ( $ ) {
 		  settings: {
 			arrows: false,
 			centerMode: true,
-			centerPadding: '15%',
+			centerPadding: '0%',
 			slidesToShow: 1
 		  }
 		}
