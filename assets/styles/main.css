@@ -87,5 +87,45 @@ h3 { font-size: var(--font-size-h3); }
 h4 { font-size: var(--font-size-h4); }
 h5 { font-size: var(--font-size-h5); }
 
+a{ text-decoration: var(--text-decoration); color: var(--black); }
+.flex{ display: flex}
+.item-center{ align-items: center;}
+.justify-center{ justify-content: center; }
+
+.button{ width: 100px; height: 100px; border-radius: 100%; outline: none; border: none; font-family: var(--font-family-helveticaNeue); cursor: pointer; transform: var(--transition); }
+.button.button-primary{ background: var(--primary); }
+.button.button-secondary{ background: var(--secondary); }
+.button.button-primary:hover{background: var(--secondary); color: var(--primary) !important; }
+.button.button-secondary:hover{background: var(--primary); color: var(--secondary) !important; }
+
 /* ### wrapper ### */
 .container { max-width: var(--width-base); width: var(--width); margin: 0 auto; }
+
+main{
+	background-image: url('../images/hero-image.jpg'); background-position: top center; background-repeat: no-repeat; background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+main .nav-button{ position: absolute; right: 0; top: 0; }
+main .nav-button .mobile-version { display: none; }
+main .nav-button ul li a{ width: 100px; height: 100px; display: flex; justify-content: center; align-items: center;}
+main .nav-button ul li:first-child{ background-color: var(--primary)}
+main .nav-button ul li:nth-child(2){ background-color: var(--secondary)}
+main .nav-button ul li:nth-child(2) a{ color: var(--primary) }
+main .logo{ width: 100%; display: flex; justify-content: center; padding-top: 3.5rem;}
+main p{ font-family: var(--font-family-helveticaNeue); font-weight: var(--font-weight-300); font-size: 20px; max-width: 467px; color: var(--white); margin-top: 4rem;}
+main h1 { color: var(--primary); margin-top: 3rem;}
+main .scroll-button{ width: 100%; display: flex; justify-content: end; margin-top: 4rem;}
+
+
+
+@media (max-width: 640px) {
+	h1{ font-size: 64px; line-height: 64px; }
+	.button{ width: 74px; height: 74px;}
+	.container{ padding: 0 .5rem;}
+	main .scroll-button { position: absolute; bottom: 3rem; right: 1.5rem;}
+	main .nav-button ul li a { width: 64px; height: 64px; }
+	main .nav-button .desktop-version { display: none; }
+	main .nav-button .mobile-version { display: flex; }
+}
