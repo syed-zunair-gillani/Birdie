@@ -147,13 +147,25 @@ main .scroll-button{ width: 100%; display: flex; justify-content: end; margin-to
 /* mobile version   */
 @media (max-width: 640px) {
 	:root{
-		h1
+		--font-size-h1: 3.5rem;
+		--font-size-h2: 4.3rem;
 	}
+	main h1{ font-size: var(--font-size-h1); line-height: 3.5rem;}
 	.button{ width: 74px; height: 74px;}
 	.container{ padding: 0 .5rem;}
 	main .scroll-button { position: absolute; bottom: 3rem; right: 1.5rem;}
 	main .nav-button ul li a { width: 64px; height: 64px; }
 	main .nav-button .desktop-version { display: none; }
 	main .nav-button .mobile-version { display: flex; }
+
+}
+@media (min-width: 641px) and (max-width: 1080px) {
+	:root{
+		--font-size-h1: 6.6rem;
+		--font-size-h2: 6.3rem;
+	}
+	.container{ padding: 0 .5rem;}
+	main h1{ font-size: var(--font-size-h1); line-height: 6.6rem;}
+	main .scroll-button { position: absolute; bottom: 3rem; right: 1.5rem;}
 
 }
