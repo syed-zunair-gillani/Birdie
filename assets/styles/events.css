@@ -188,6 +188,9 @@ section {
     font-size: var(--font-base);
 }
 
+footer{
+    background-color: var(--secondary);
+}
 @media screen and (max-width: 480px) {
 
     h2,
