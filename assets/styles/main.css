@@ -373,6 +373,7 @@ main .scroll-button {
 	line-height: 68px;
 	position: relative;
 	width: 100%;
+	text-align: end;
 }
 
 .news .sliderholder .news_box .news_date::before {
@@ -634,6 +635,7 @@ footer h2 {
 	.news .sliderholder .news_box .news_date {
 		font-size: 26px;
 		line-height: 32px;
+		text-align: start;
 	}
 
 	.news .sliderholder .news_box .news_date::before {
@@ -674,6 +676,7 @@ footer h2 {
 	/* news   */
 	.news .sliderholder .news_box .news_date {
 		font-size: 32px;
+		text-align: start;
 	}
 
 	.news .sliderholder .news_box .news_date::before {
