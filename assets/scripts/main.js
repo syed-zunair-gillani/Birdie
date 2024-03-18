@@ -14,7 +14,7 @@ jQuery( document ).ready( function ( $ ) {
 	  centerMode: true,
 	  centerPadding: '0%',
 	  slidesToShow: 2,
-	  autoplay: true,
+	  autoplay: false,
 	  autoplaySpeed: 2000,
 	  dots: false,
 	  arrows:false,
@@ -29,7 +29,7 @@ jQuery( document ).ready( function ( $ ) {
 		  }
 		},
 		{
-		  breakpoint: 480,
+		  breakpoint: 640,
 		  settings: {
 			arrows: false,
 			centerMode: true,
