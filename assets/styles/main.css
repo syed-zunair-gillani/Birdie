@@ -421,6 +421,10 @@ main .scroll-button {
 	font-weight: bold;
 }
 
+.news .Next_arrow .arrow {
+	margin-top: -12px;
+}
+
 .more_btn {
 	margin-top: 116px;
 	text-align: center;
@@ -667,7 +671,8 @@ footer h2 {
 		line-height: 66px;
 		margin-bottom: 0;
 	}
-/* main   */
+
+	/* main   */
 	main h1 {
 		font-size: var(--font-size-h1);
 		line-height: 82px;

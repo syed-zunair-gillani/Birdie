@@ -50,4 +50,7 @@ jQuery( document ).ready( function ( $ ) {
 	
 } );
 
-
+// Next arrow 
+$(".next-btn").click(function () {
+	$(".sliderholder").slick("slickNext");
+});
