@@ -637,8 +637,8 @@ footer h2 {
 	}
 
 	.news .sliderholder .news_box .news_date {
-		font-size: 26px;
-		line-height: 32px;
+		font-size: 58px;
+		line-height: 68.03px;
 		text-align: start;
 	}
 
@@ -678,9 +678,18 @@ footer h2 {
 		line-height: 82px;
 	}
 
+	/* events   */
+	.events .event_box {
+		margin-top: 60px;
+	}
+
+	.events .event_box .col_center {
+		margin: 0 auto 0;
+	}
+
 	/* news   */
 	.news .sliderholder .news_box .news_date {
-		font-size: 32px;
+		font-size: 42px;
 		text-align: start;
 	}
 
